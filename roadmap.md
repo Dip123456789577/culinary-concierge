@@ -1,0 +1,4 @@
+- [ ] Build the premium restaurant homepage and supporting interactions
+- [ ] Add live Restaurant Concierge chat with one browser-persisted conversation
+- [ ] Add generated restaurant imagery and responsive accessibility states
+- [ ] Validate the preview, chat flow, and production build
