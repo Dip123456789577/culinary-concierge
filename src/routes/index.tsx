@@ -190,7 +190,6 @@ function Index() {
     </main>
   );
 }
-
 function MenuItem({ image, label, title, text }: { image: string; label: string; title: string; text: string }) {
   return <article className="group"><div className="overflow-hidden"><img src={image} alt={title} className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105" width="1200" height="900" /></div><div className="border-b border-border py-5"><p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">{label}</p><h3 className="mt-2 font-serif text-2xl">{title}</h3><p className="mt-3 text-sm leading-6 text-muted-foreground">{text}</p></div></article>;
 }
@@ -202,3 +201,4 @@ function QuickAction({ icon, label, onClick }: { icon: React.ReactNode; label: s
 function ChatInput(props: React.ComponentProps<typeof Input>) {
   return <Input {...props} className="h-9 border-primary-foreground/20 bg-primary-foreground/10 text-primary-foreground placeholder:text-primary-foreground/40" />;
 }
+
