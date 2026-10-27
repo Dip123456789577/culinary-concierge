@@ -3,8 +3,5 @@
   "buildCommand": "npm run build:vercel",
   "installCommand": "npm ci",
   "outputDirectory": ".vercel/output",
-  "framework": null,
-  "env": {
-    "NITRO_PRESET": "vercel"
-  }
+  "framework": null
 }
